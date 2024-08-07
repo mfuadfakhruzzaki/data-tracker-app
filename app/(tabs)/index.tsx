@@ -20,14 +20,9 @@ export default function HomeScreen() {
         <HelloWave />
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
+        <ThemedText type="subtitle">Terima kasih telah mengunjungi aplikasi kami ^^</ThemedText>
         <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({ ios: 'cmd + d', android: 'cmd + m' })}
-          </ThemedText>{' '}
-          to open developer tools.
+        .... adalah sebuah aplikasi simulator untuk memproyeksikan penggunaan data selular Anda. Dengan menggunakan ..., kamu dapat membuat perencanaan paket data yang jauh lebih efektif dan efisien !
         </ThemedText>
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
